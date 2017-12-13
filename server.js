@@ -87,7 +87,7 @@ server.get('/portland', function(req, res, next) {
 server.get('/hawaii', function(req, res, next) {
   var templateArgs = {
     hType: "headerhawaii",
-    photoStuff: portlandDat
+    photoStuff: hawaiiDat
   };
   console.log(templateArgs);
   res.render('mainPage', templateArgs);
@@ -96,7 +96,7 @@ server.get('/hawaii', function(req, res, next) {
 server.get('/gorge', function(req, res, next) {
   var templateArgs = {
     hType: "headergorge",
-    photoStuff: portlandDat
+    photoStuff: gorgeDat
   };
   console.log(templateArgs);
   res.render('mainPage', templateArgs);
@@ -105,7 +105,7 @@ server.get('/gorge', function(req, res, next) {
 server.get('/utah', function(req, res, next) {
   var templateArgs = {
     hType: "headerutah",
-    photoStuff: portlandDat
+    photoStuff: utahDat
   };
   console.log(templateArgs);
   res.render('mainPage', templateArgs);
