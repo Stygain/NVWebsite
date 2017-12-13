@@ -3,6 +3,7 @@ var server = express();
 var fs = require('fs');
 var path = require('path');
 var exphbs = require('express-handlebars');
+var hbs = require('handlebars');
 
 var homeDat = require('./homeDat.json');
 var portlandDat = require('./portlandDat.json');
@@ -16,6 +17,14 @@ server.engine('handlebars', exphbs({defaultLayout: 'main'}));
 server.set('view engine', 'handlebars');
 
 server.use(express.static(path.join(__dirname, 'public')));
+
+hbs.registerHelper('if_even', function(conditional, options) {
+  if((conditional % 2) == 0) {
+    return options.fn(this);
+  } else {
+    return options.inverse(this);
+  }
+});
 
 server.get('/', function(req, res, next) {
   var templateArgs = {

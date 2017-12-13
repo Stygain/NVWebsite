@@ -3,7 +3,11 @@
 <main class="photo-container">
 
   {{#each photoStuff}}
-    {{> photoSet}}
+    {{#if_even @index}}
+      {{> photoSet}}
+    {{else}}
+      {{> photoSet2}}
+    {{/if_even}}
   {{/each}}
 
 </main>
