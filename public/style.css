@@ -147,7 +147,7 @@ a:focus {
   flex: 0 1 0 22%;
 	/*flex-direction: column;*/
   display: inline-flex;
-	max-width: 35vw;
+	max-height: 38vw;
   margin: 0;
   border: 1px solid #dadada;
   border-radius: 2px;
@@ -155,7 +155,7 @@ a:focus {
 }
 
 .photo-card-small img {
-  width: 35vw;
+  width: 38vw;
 	margin: 0;
 	padding: 0;
 	vertical-align: top;
