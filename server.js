@@ -4,7 +4,11 @@ var fs = require('fs');
 var path = require('path');
 var exphbs = require('express-handlebars');
 
-var photoData = require('./photoData.json');
+var homeDat = require('./homeDat.json');
+var portlandDat = require('./portlandDat.json');
+var hawaiiDat = require('./hawaiiDat.json');
+var gorgeDat = require('./gorgeDat.json');
+var utahDat = require('./utahDat.json');
 
 var port = process.env.PORT || 3000;
 
@@ -15,20 +19,19 @@ server.use(express.static(path.join(__dirname, 'public')));
 
 server.get('/', function(req, res, next) {
   var templateArgs = {
-    photoStuff: photoData
+    photoStuff: homeDat
   };
   console.log(templateArgs);
   res.render('mainPage', templateArgs);
 });
 
-// server.get('/twits', function(req, res, next) {
-//   var templateArgs = {
-//     twitStuff: photoData,
-//     modal: false
-//   };
-//   console.log(templateArgs);
-//   res.render('twitPage', templateArgs);
-// });
+server.get('/portland', function(req, res, next) {
+  var templateArgs = {
+    photoStuff: portlandDat
+  };
+  console.log(templateArgs);
+  res.render('mainPage', templateArgs);
+});
 //
 // server.get('/twits/:index', function(req, res, next) {
 //   console.log("index request", req.params);
