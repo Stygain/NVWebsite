@@ -1,3 +1,4 @@
+/*GENERAL BODY AND LINK STYLING*/
 body {
   font-family: 'Kaushan Script', cursive;
   margin: 0;
@@ -14,6 +15,12 @@ a {
   text-decoration: none;
   color: black;
   margin: 0;
+}
+
+/*NAVBAR*/
+.navbar {
+  box-shadow: 0px 10px 15px #2b2b2b;
+  z-index: 1;
 }
 
 .navbar-brand {
@@ -44,6 +51,18 @@ a:focus {
 a:focus {
   outline: none;
 }
+
+/*Carousel styling*/
+.carousel-container {
+  margin-top: 51px;
+  z-index: 0;
+}
+
+.carousel {
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 /*.navbar-search {
   float: right;
@@ -83,6 +102,7 @@ a:focus {
   outline: none;
 }*/
 
+/*Photo card and container styling*/
 .photo-container {
   margin: 0px 10vw;
 	justify-content: center;
