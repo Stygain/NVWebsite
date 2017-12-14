@@ -1,0 +1,32 @@
+{
+  "name": "northwestvision",
+  "version": "1.0.0",
+  "description": "A website created by Adam Barton to both showcase his photography, but also his passion for computer science and work outside of classs",
+  "main": "server.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express-handlebars": "^3.0.0",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stygain/NVWebsite.git"
+  },
+  "keywords": [
+    "photography",
+    "portland",
+    "adam",
+    "barton"
+  ],
+  "author": "Adam Barton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stygain/NVWebsite/issues"
+  },
+  "homepage": "https://github.com/Stygain/NVWebsite#readme"
+}
