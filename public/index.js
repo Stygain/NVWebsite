@@ -1,16 +1,16 @@
-var navlinks = document.getElementsByClassName("navitem");
-for (var i = 0; i < navlinks.length; i++) {
-  navlinks[i].addEventListener('click', toggleUnderline);
-}
-
-function toggleUnderline() {
-  for (var i = 0; i < navlinks.length; i++) {
-    if (navlinks[i].classList.contains("active")) {
-      navlinks[i].classList.toggle("active");
-    }
-  }
-  this.classList.toggle("active");
-}
+// var navlinks = document.getElementsByClassName("navitem");
+// for (var i = 0; i < navlinks.length; i++) {
+//   navlinks[i].addEventListener('click', toggleUnderline);
+// }
+//
+// function toggleUnderline() {
+//   for (var i = 0; i < navlinks.length; i++) {
+//     if (navlinks[i].classList.contains("active")) {
+//       navlinks[i].classList.toggle("active");
+//     }
+//   }
+//   this.classList.toggle("active");
+// }
 
 
 
