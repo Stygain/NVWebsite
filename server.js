@@ -72,7 +72,7 @@ server.get('/', function(req, res, next) {
     hType: "home",
     photoStuff: homeDat
   };
-  console.log(templateArgs);
+  // console.log(templateArgs);
   res.render('mainPage', templateArgs);
 });
 
@@ -81,7 +81,7 @@ server.get('/portland', function(req, res, next) {
     hType: "headerport",
     photoStuff: portlandDat
   };
-  console.log(templateArgs);
+  // console.log(templateArgs);
   res.render('mainPage', templateArgs);
 });
 
@@ -90,7 +90,7 @@ server.get('/hawaii', function(req, res, next) {
     hType: "headerhawaii",
     photoStuff: hawaiiDat
   };
-  console.log(templateArgs);
+  // console.log(templateArgs);
   res.render('mainPage', templateArgs);
 });
 
@@ -99,7 +99,7 @@ server.get('/gorge', function(req, res, next) {
     hType: "headergorge",
     photoStuff: gorgeDat
   };
-  console.log(templateArgs);
+  // console.log(templateArgs);
   res.render('mainPage', templateArgs);
 });
 
@@ -108,7 +108,7 @@ server.get('/utah', function(req, res, next) {
     hType: "headerutah",
     photoStuff: utahDat
   };
-  console.log(templateArgs);
+  // console.log(templateArgs);
   res.render('mainPage', templateArgs);
 });
 
