@@ -112,8 +112,11 @@ server.get('/utah', function(req, res, next) {
   res.render('mainPage', templateArgs);
 });
 
+server.get('/:page/:index', function(req, res, next) {
+  console.log("page request", req.params.page);
+  console.log("index request", req.params.index);
+});
 
-//
 // server.get('/twits/:index', function(req, res, next) {
 //   console.log("index request", req.params);
 //   var tw = req.params.index;
