@@ -172,7 +172,7 @@ footer {
 	z-index: 0;
 }
 
-.photo-card-small a {
+.nesting {
   margin: auto;
 }
 
@@ -209,10 +209,6 @@ footer {
   /*border: 1px solid #000000;*/
   /*border-radius: 2px;*/
   background-color: rgba(#000000, 0);
-}
-
-.photo-card-big a {
-  margin: auto;
 }
 
 .photo-card-big img {
