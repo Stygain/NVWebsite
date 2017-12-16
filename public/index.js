@@ -1,3 +1,16 @@
+var hidden = document.getElementsByClassName('hid');
+var images = document.getElementsByClassName("nesting");
+for (var i = 0; i < images.length; i++) {
+  images[i].addEventListener('click', imgPress);
+}
+
+function imgPress() {
+  for (var i = 0; i < hidden.length; i++) {
+    hidden[i].style.display = 'initial';
+
+  }
+};
+
 // var navlinks = document.getElementsByClassName("navitem");
 // for (var i = 0; i < navlinks.length; i++) {
 //   navlinks[i].addEventListener('click', toggleUnderline);
@@ -22,7 +35,6 @@
 // var searchButton = document.getElementById('navbar-search-button');
 //
 // var fabButton = document.getElementById('create-twit-button');
-// var hidden = document.getElementsByClassName('hidden');
 // var close = document.getElementsByClassName('modal-close-button');
 // var cancel = document.getElementsByClassName('modal-cancel-button');
 // var accept = document.getElementsByClassName('modal-accept-button');
