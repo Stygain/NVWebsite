@@ -1,5 +1,7 @@
 var hidden = document.getElementsByClassName('hid');
-var images = document.getElementsByClassName("nesting");
+var images = document.getElementsByClassName('nesting');
+// var back = document.getElementById('back');
+// back.addEventListener('click', imgUnpress);
 for (var i = 0; i < images.length; i++) {
   images[i].addEventListener('click', imgPress);
 }
@@ -7,11 +9,19 @@ for (var i = 0; i < images.length; i++) {
 function imgPress() {
   for (var i = 0; i < hidden.length; i++) {
     hidden[i].style.display = 'initial';
-
   }
 };
 
-// var navlinks = document.getElementsByClassName("navitem");
+function imgUnpress() {
+  for (var i = 0; i < hidden.length; i++) {
+    hidden[i].style.display = 'none';
+  }
+};
+
+
+
+
+// var navlinks = document.getElementsByClassName('navitem');
 // for (var i = 0; i < navlinks.length; i++) {
 //   navlinks[i].addEventListener('click', toggleUnderline);
 // }

@@ -104,7 +104,7 @@ footer {
 }
 
 /* Image popout */
-.popout-backdrop {
+#popout-backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -114,25 +114,44 @@ footer {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.popout {
+#popout {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1010;
-  /* text-align: center;
-  align-items: center; */
+  padding: 10px;
 }
 
-.popout img {
-  position: relative;
+.popout-body {
+  background-color: rgb(255, 255, 255);
   max-width: 80vw;
-  max-height: 80vh;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
+  max-height: 90vh;
+  margin: auto;
+  padding: 10px;
+  /* overflow: auto; */
+}
+
+/* #popout-body-elem1 {
+  float: left;
+  margin: 0;
+}
+
+#popout-body-elem2 {
+  width: 10vw;
+  max-height: 90vh;
+  float: left;
+  margin: 0;
+} */
+
+#popoutimg {
+  max-width: 78.5vw;
+  max-height: 88vh;
+}
+
+.hid {
+  display: none;
 }
 
 
