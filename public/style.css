@@ -87,10 +87,19 @@ footer {
 }
 
 .foot {
-  padding-top: 5px;
   font-family: 'Oswald', sans-serif;
   font-size: 1vw;
   text-align: center;
+}
+
+.foot a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.foot img {
+  width: 2vw;
+  padding: 5px;
 }
 
 /*.navbar-search {
