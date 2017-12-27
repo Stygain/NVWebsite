@@ -15,5 +15,5 @@ span.onclick = function() {
 function imgPress() {
   modal.style.display = "block";
   modalImg.src = this.children[0].src;
-  captionText.innerHTML = this.alt;
+  // captionText.innerHTML = this.alt;
 };
