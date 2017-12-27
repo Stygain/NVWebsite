@@ -12,6 +12,10 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
+modal.onclick = function() {
+  modal.style.display = "none";
+}
+
 function imgPress() {
   modal.style.display = "block";
   modalImg.src = this.children[0].src;

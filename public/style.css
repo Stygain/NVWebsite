@@ -154,10 +154,11 @@ footer {
     position: absolute;
     top: 15px;
     right: 35px;
-    color: #f1f1f1;
+    color: #acacac;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    z-index: 150;
 }
 
 .close:hover,
@@ -168,7 +169,7 @@ footer {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 80vw){
     .modal-content {
         width: 100%;
     }
