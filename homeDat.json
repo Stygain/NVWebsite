@@ -1,32 +1,50 @@
 [
   {
     "source1": "https://i.imgur.com/XR4QY2Q.jpg",
+    "alt1": "Watson falls in south-central Oregon, the third tallest waterfall in Oregon",
     "source2": "https://i.imgur.com/bwHnoZ4.jpg",
-    "source3": "https://i.imgur.com/09PrOA3.jpg"
+    "alt2": "Yaquina bay bridge located in Newport, Oregon",
+    "source3": "https://i.imgur.com/09PrOA3.jpg",
+    "alt3": "Sunset in Newport, Oregon"
   },
   {
     "source1": "https://i.imgur.com/XDjpeLg.jpg",
+    "alt1": "Abandoned Pullman car in Corvallis, Oregon",
     "source2": "https://i.imgur.com/ZbfjTcT.jpg",
-    "source3": "https://i.imgur.com/hAobZVU.jpg"
+    "alt2": "Looking over the edge on an abandoned railroad near Timber, Oregon",
+    "source3": "https://i.imgur.com/hAobZVU.jpg",
+    "alt3": "Icicles looming above (these are a couple feet long)"
   },
   {
     "source1": "https://i.imgur.com/Xrl0U5g.jpg",
+    "alt1": "Snow covered trees near the summit of Mary's Peak",
     "source2": "https://i.imgur.com/j9DACaW.jpg",
-    "source3": "https://i.imgur.com/q3FRtZG.jpg"
+    "alt2": "Closeup on the charred wood",
+    "source3": "https://i.imgur.com/q3FRtZG.jpg",
+    "alt3": "Yaquina Head Lighthouse in Newport, Oregon"
   },
   {
     "source1": "https://i.imgur.com/7Pwsuji.jpg",
+    "alt1": "Hotdogs on the beach",
     "source2": "https://i.imgur.com/L0F20O4.jpg",
-    "source3": "https://i.imgur.com/i4w7lT2.jpg"
+    "alt2": "Mirror lake near Mount Hood",
+    "source3": "https://i.imgur.com/i4w7lT2.jpg",
+    "alt3": "Thor's Well a hole that fills and empties with water and sprays magnificently at higher tides"
   },
   {
     "source1": "https://i.imgur.com/OVsiOhQ.jpg",
+    "alt1": "A peek through the trees at Toketee Falls",
     "source2": "https://i.imgur.com/onjSgWL.jpg",
-    "source3": "https://i.imgur.com/MLFcNvx.jpg"
+    "alt2": "Toketee Falls, 1 mile away from Watson falls in south-central Oregon",
+    "source3": "https://i.imgur.com/MLFcNvx.jpg",
+    "alt3": "Snow covered Wizard Island in Crater Lake"
   },
   {
     "source1": "https://i.imgur.com/WNxYV6n.jpg",
+    "alt1": "Weatherford Hall, Oregon State University",
     "source2": "https://i.imgur.com/cqmgSdI.jpg",
-    "source3": "https://i.imgur.com/lrezNk3.jpg"
+    "alt2": "Pumpkins in the afternoon sun, Corvallis, Oregon",
+    "source3": "https://i.imgur.com/lrezNk3.jpg",
+    "alt3": "Trillium Lake near Mount Hood"
   }
 ]
