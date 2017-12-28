@@ -103,6 +103,18 @@ footer {
   padding: 5px;
 }
 
+/* 404Page */
+.error-container {
+  width: 50%;
+  margin: auto;
+  margin-top: 4vw;
+}
+
+.style-error {
+  text-align: center;
+}
+
+/* MODAL */
 /* The Modal (background) */
 .modal {
     display: none;

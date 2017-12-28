@@ -1,6 +1,7 @@
 var express = require('express');
 var server = express();
 var fs = require('fs');
+var http = require('http');
 var path = require('path');
 var exphbs = require('express-handlebars');
 var hbs = require('handlebars');
@@ -116,33 +117,6 @@ server.get('/:page/:index', function(req, res, next) {
   console.log("page request", req.params.page);
   console.log("index request", req.params.index);
 });
-
-// server.get('/twits/:index', function(req, res, next) {
-//   console.log("index request", req.params);
-//   var tw = req.params.index;
-//   var twit = photoData[tw];
-//   if (twit) {
-//     var templateArgs = {
-//       text: twit.text,
-//       author: twit.author
-//     };
-//     templateArgs2 = {
-//       twitStuff: [templateArgs],
-//       modal: false
-//     };
-//     console.log(templateArgs);
-//     console.log(templateArgs2);
-//     res.render('twitPage', templateArgs2);
-//   }
-//   else {
-//     next();
-//   }
-//   //
-//   // Object.keys(photoData).forEach(function (twit) {
-//   //   var twit = photoData[twit];
-//   //   console.log(twit);
-//   // });
-// });
 
 server.get('*', function(req, res) {
   res.render('404Page');
