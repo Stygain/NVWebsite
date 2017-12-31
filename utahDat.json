@@ -1,27 +1,42 @@
 [
   {
     "source1": "https://i.imgur.com/YOrj2rP.jpg",
+    "alt1":"View of Canyonlands from the Island in the Sky",
     "source2": "https://i.imgur.com/onrccSd.jpg",
-    "source3": "https://i.imgur.com/aFWGBP2.jpg"
+    "alt2":"Jeep tour with a magnificent machine",
+    "source3": "https://i.imgur.com/aFWGBP2.jpg",
+    "alt3":"Looking through Mesa Arch out towards the mountains"
   },
   {
     "source1": "https://i.imgur.com/xxTxcgG.jpg",
+    "alt1":"Dead tree in Canyonlands NP",
     "source2": "https://i.imgur.com/uf9KKAu.jpg",
-    "source3": "https://i.imgur.com/8kCK8DA.jpg"
+    "alt2":"A person standing under Double Arch",
+    "source3": "https://i.imgur.com/8kCK8DA.jpg",
+    "alt3":"The classic Delicate Arch (With no people in the picture!)"
   },
   {
     "source1": "https://i.imgur.com/GnOVdu1.jpg",
+    "alt1":"Tree framing Turret Arch",
     "source2": "https://i.imgur.com/akHNNRr.jpg",
-    "source3": "https://i.imgur.com/Yo7HMJH.jpg"
+    "alt2":"Rungs to help you climb",
+    "source3": "https://i.imgur.com/Yo7HMJH.jpg",
+    "alt3":"Balanced Rock (can you see the people for scale)"
   },
   {
     "source1": "https://i.imgur.com/QjHe9Ao.jpg",
+    "alt1":"View of the Utah Capitol Building, a replica of the Capitol Building in Washington DC",
     "source2": "https://i.imgur.com/oV0uryW.jpg",
-    "source3": "https://i.imgur.com/JcywZnr.jpg"
+    "alt2":"Six Shooter Rock",
+    "source3": "https://i.imgur.com/JcywZnr.jpg",
+    "alt3":"One of few cactus blooms we saw"
   },
   {
     "source1": "https://i.imgur.com/kDgawV0.jpg",
+    "alt1":"Angry clouds over our ride",
     "source2": "https://i.imgur.com/AvQAhUM.jpg",
-    "source3": "https://i.imgur.com/3iRZEHI.jpg"
+    "alt2":"Cool grass-like plant in front of turret arch",
+    "source3": "https://i.imgur.com/3iRZEHI.jpg",
+    "alt3":"Extremely tall stack for a smelting business near SLC along the coast of the Salt Lake"
   }
 ]
