@@ -53,7 +53,7 @@ a:focus {
 
 /*Carousel styling*/
 .carousel-container {
-  margin-top: 51px;
+  margin-top: 7.2vh;
   z-index: 0;
 }
 
@@ -89,7 +89,7 @@ footer {
 .foot {
   padding-top: 5px;
   font-family: 'Oswald', sans-serif;
-  font-size: 1vw;
+  font-size: 1.8vh;
   text-align: center;
 }
 
@@ -135,7 +135,7 @@ footer {
     margin: auto;
     display: block;
     height: 100%;
-    max-height: 90vh;
+    max-height: 94vh;
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -146,6 +146,8 @@ footer {
     max-width: 80vw;
     text-align: center;
     color: #ccc;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8vh;
     padding: 10px 0;
     /* height: 150px; */
 }
