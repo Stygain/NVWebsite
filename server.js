@@ -133,6 +133,26 @@ server.get('/public/*', function(req, res, next) {
   });
 });
 
+server.get('/assets/*', function(req, res, next) {
+  var filePath = '.' + req.url;
+  var extname = ''
+  extname = path.extname(filePath);
+  var contentType = 'text/html';
+  switch (extname) {
+    case '.jpg':
+	  contentType = 'image/jpg';
+	  break;
+  }
+  fs.readFile(filePath, function(error, content) {
+	if (error) {
+      res.render('404Page');
+	} else {
+      res.writeHead(200, { 'Content-Type': contentType });
+	  res.end(content, 'utf-8');
+	}
+  });
+});
+
 server.get('/:page/:index', function(req, res, next) {
   console.log("page request", req.params.page);
   console.log("index request", req.params.index);

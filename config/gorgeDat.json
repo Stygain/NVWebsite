@@ -1,26 +1,26 @@
 [
   {
-    "source1": "https://i.imgur.com/onlAN12.jpg",
+    "source1": "/assets/gorge/IMG_1380.jpg",
     "alt1":"Dry Creek Falls",
-    "source2": "https://i.imgur.com/OjqN1J3.jpg",
+    "source2": "/assets/gorge/IMG_5015.jpg",
     "alt2":"Short waterfall on the hike to Tamanawas Falls",
-    "source3": "https://i.imgur.com/ItXovJi.jpg",
+    "source3": "/assets/gorge/IMG_7483.jpg",
     "alt3":"Flowers along a hike"
   },
   {
-    "source1": "https://i.imgur.com/LOoo9Sq.jpg",
+    "source1": "/assets/gorge/IMG_8363.jpg",
     "alt1":"View of the trail along the ridge of Munra Point, looking south",
-    "source2": "https://i.imgur.com/t9oGoGD.jpg",
+    "source2": "/assets/gorge/IMG_8385.jpg",
     "alt2":"View from atop Munra Point looking out to Mount Jefferson and the Bonneville Dam",
-    "source3": "https://i.imgur.com/JmELJnE.jpg",
+    "source3": "/assets/gorge/IMG_8252.jpg",
     "alt3":"View from ~3/4 of the way up to the peak of Munra Point"
   },
   {
-    "source1": "https://i.imgur.com/cZ9Ngm4.jpg",
+    "source1": "/assets/gorge/IMG_1482.jpg",
     "alt1":"Dead tree standing out along a hike",
-    "source2": "https://i.imgur.com/hRUvt0r.jpg",
+    "source2": "/assets/gorge/IMG_3221.jpg",
     "alt2":"Rusty old rails",
-    "source3": "https://i.imgur.com/RvFjuh0.jpg",
+    "source3": "/assets/gorge/IMG_8370.jpg",
     "alt3":"Looking through the grass and trees westward atop Munra Point"
   }
 ]
