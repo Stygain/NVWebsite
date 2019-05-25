@@ -1,50 +1,50 @@
 [
   {
-    "source1": "/public/image1.jpg",
+    "source1": "/assets/home/IMG_7705.jpg",
     "alt1": "Watson falls in south-central Oregon, the third tallest waterfall in Oregon",
-    "source2": "https://i.imgur.com/bwHnoZ4.jpg",
+    "source2": "/assets/home/IMG_7371.jpg",
     "alt2": "Yaquina bay bridge located in Newport, Oregon",
-    "source3": "https://i.imgur.com/09PrOA3.jpg",
+    "source3": "/assets/home/IMG_7499.jpg",
     "alt3": "Sunset in Newport, Oregon"
   },
   {
-    "source1": "https://i.imgur.com/XDjpeLg.jpg",
+    "source1": "/assets/home/IMG_8475.jpg",
     "alt1": "Abandoned Pullman car in Corvallis, Oregon",
-    "source2": "https://i.imgur.com/ZbfjTcT.jpg",
+    "source2": "/assets/home/IMG_3057.jpg",
     "alt2": "Looking over the edge on an abandoned railroad near Timber, Oregon",
-    "source3": "https://i.imgur.com/hAobZVU.jpg",
+    "source3": "/assets/home/IMG_5483.jpg",
     "alt3": "Icicles looming above (these are a couple feet long)"
   },
   {
-    "source1": "https://i.imgur.com/Xrl0U5g.jpg",
+    "source1": "/assets/home/IMG_20170304_121251.jpg",
     "alt1": "Snow covered trees near the summit of Mary's Peak",
-    "source2": "https://i.imgur.com/j9DACaW.jpg",
+    "source2": "/assets/home/IMG_7542.jpg",
     "alt2": "Closeup on the charred wood",
-    "source3": "https://i.imgur.com/q3FRtZG.jpg",
+    "source3": "/assets/home/IMG_7267.jpg",
     "alt3": "Yaquina Head Lighthouse in Newport, Oregon"
   },
   {
-    "source1": "https://i.imgur.com/7Pwsuji.jpg",
+    "source1": "/assets/home/IMG_7507.jpg",
     "alt1": "Hotdogs on the beach",
-    "source2": "https://i.imgur.com/L0F20O4.jpg",
+    "source2": "/assets/home/IMG_20160721_171943.jpg",
     "alt2": "Mirror lake near Mount Hood",
-    "source3": "https://i.imgur.com/i4w7lT2.jpg",
-    "alt3": "Thor's Well a hole that fills and empties with water and sprays magnificently at higher tides"
+    "source3": "/assets/home/IMG_7447.jpg",
+    "alt3": "Thor's Well: A hole that fills and empties with water and sprays magnificently at higher tides"
   },
   {
-    "source1": "https://i.imgur.com/OVsiOhQ.jpg",
+    "source1": "/assets/home/IMG_7637.jpg",
     "alt1": "A peek through the trees at Toketee Falls",
-    "source2": "https://i.imgur.com/onjSgWL.jpg",
+    "source2": "/assets/home/IMG_20170529_135545.jpg",
     "alt2": "Toketee Falls, 1 mile away from Watson falls in south-central Oregon",
-    "source3": "https://i.imgur.com/MLFcNvx.jpg",
+    "source3": "/assets/home/IMG_20170529_172624.jpg",
     "alt3": "Snow covered Wizard Island in Crater Lake"
   },
   {
-    "source1": "https://i.imgur.com/WNxYV6n.jpg",
+    "source1": "/assets/home/IMG_20161110_152253.jpg",
     "alt1": "Weatherford Hall, Oregon State University",
-    "source2": "https://i.imgur.com/cqmgSdI.jpg",
+    "source2": "/assets/home/IMG_8578.jpg",
     "alt2": "Pumpkins in the afternoon sun, Corvallis, Oregon",
-    "source3": "https://i.imgur.com/lrezNk3.jpg",
+    "source3": "/assets/home/IMG_20160721_150340.jpg",
     "alt3": "Trillium Lake near Mount Hood"
   }
 ]
