@@ -7,11 +7,11 @@ var exphbs = require('express-handlebars');
 var hbs = require('handlebars');
 // var bootstrap = require('bootstrap');
 
-var homeDat = require('./homeDat.json');
-var portlandDat = require('./portlandDat.json');
-var hawaiiDat = require('./hawaiiDat.json');
-var gorgeDat = require('./gorgeDat.json');
-var utahDat = require('./utahDat.json');
+var homeDat = require('./config/homeDat.json');
+var portlandDat = require('./config/portlandDat.json');
+var hawaiiDat = require('./config/hawaiiDat.json');
+var gorgeDat = require('./config/gorgeDat.json');
+var utahDat = require('./config/utahDat.json');
 
 var port = process.env.PORT || 3000;
 
