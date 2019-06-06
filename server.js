@@ -77,6 +77,17 @@ server.get('/', function(req, res, next) {
   res.render('mainPage', templateArgs);
 });
 
+// TODO redirect them to just /
+server.get('//', function(req, res, next) {
+  var templateArgs = {
+    hType: "home",
+    photoStuff: homeDat
+  };
+  // console.log(templateArgs);
+  res.render('mainPage', templateArgs);
+});
+
+
 server.get('/portland', function(req, res, next) {
   var templateArgs = {
     hType: "headerport",
